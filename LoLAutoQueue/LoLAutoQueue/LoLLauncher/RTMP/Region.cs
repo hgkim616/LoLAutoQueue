@@ -102,7 +102,12 @@ namespace LoLLauncher
         [LoginQueueValue("https://lq.oc1.lol.riotgames.com/")]
         [LocaleValue("en_US")]
         [UseGarenaValue(false)]
-        OCE
+        OCE,
+        
+        [ServerValue("")]
+        [LoginQueueValue("http://plat.lol.qq.com:8443/")]
+        [LocaleValue("zh_CN")]
+        [UseGarenaValue(true)]
     }
 
     public static class RegionInfo
